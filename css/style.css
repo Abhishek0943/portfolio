@@ -1,0 +1,133 @@
+@import "utility.css";
+
+
+:root {
+    --black: #000000;
+    --black2: #150050;
+    --main: #66fcf1;
+    --black3: #080d19;
+    --white: #fff;
+    --text: #b4b4b4;
+    --max-width: 1200px;
+    --margin: 0px auto;
+    --transition: all 0.3s ease-in-out;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--white);
+    text-align: center;
+    font-family: inter, sans-serif;
+    font-size: 16px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* home */
+.home {
+    min-height: 500px;
+    height: 100vh;
+
+}
+
+#particles-js {
+    background-color: var(--black3);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+
+.navBar {
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+    background-color: transparent;
+    max-width: var(--max-width);
+    width: 95%;
+    margin: var(--margin);
+    justify-content: space-between;
+}
+
+.navBar img {
+    height: 60px;
+    mix-blend-mode: lighten;
+}
+
+#toggleBar {
+    display: none;
+}
+
+
+.menuList {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.menuList li {
+    color: var(--main);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: var(--max-width);
+    margin: var(--margin);
+    width: 95%;
+}
+
+.hero_heading {
+    margin-bottom: 20px;
+}
+
+.hero_sub_heading {
+    color: var(--main);
+    font-size: 1.5rem;
+    font-style: oblique;
+    margin-bottom: 50px;
+}
+
+.hero_para {
+    color: var(--text);
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: calc(var(--max-width)-10vw);
+}
+
+.activeText {
+    font-size: 1.2rem;
+
+}

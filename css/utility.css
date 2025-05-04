@@ -1,0 +1,25 @@
+.btn {
+    border: 2px solid var(--main);
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-fill,
+.btn-fill>* {
+    background-color: var(--main);
+    color: var(--black);
+}
+
+.btn-outline,
+.btn-outline>* {
+    background-color: transparent;
+    color: var(--main);
+
+}
+
+.btn:hover {
+    transform: scale(1.02);
+}
