@@ -1,0 +1,17 @@
+.swiper {
+    width: 100%;
+    height: 700px;
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--pink) !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    display: none;
+}

@@ -15,21 +15,31 @@
 </head>
 
 <body>
-    <section id="particles-js" class="home">
+   
+    <section id="particles-js" class="section">
         <nav class="navBar">
-            <!-- <div> -->
-                <div style="background-color: #080d19;">
+            <div>
+                <div>
                     <img src="./images/logo.png" alt="logo">
                 </div>
-                <div id="toggleBar">
+                <div id="toggelBar">
                     <ion-icon name="menu" style="font-size: 2rem;"></ion-icon>
                 </div>
                 <ul id='menuList' class="menuList">
                     <li><a href="/">Home</a></li>
+                    <!-- {{!-- <li><a role="link" aria-disabled="true">Services</a></li> --}} -->
                     <li><a href="#services">Services</a></li>
                     <li><a href="#services">FAQ</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <!-- {{!-- <li style="position:absolute; visibility: hidden;"></li> --}} -->
+                    <!-- {{!-- <li><a href="#project">Project</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li>
+                        <a role="link" aria-disabled="true">login</a>
+                    </li> --}} -->
                 </ul>
+            </div>
+
         </nav>
         <div class="main">
             <h1 class="hero_heading">Full-Stack Web & App Development for Scalable Businesses</h1>
@@ -42,20 +52,734 @@
                 focus on user <span class="activeText">experience</span>,<span class="activeText">accessibility</span>,
                 and <span class="activeText">scalability</span>, I deliver high-quality results that exceed
                 your expectations.</p>
-         
+            <!-- <div style="display: flex;align-items: center;gap: 20px; position: relative; z-index: 10;">
+                <a href="https://www.linkedin.com/in/abhishek-pundir-109358232/" target="_blank">
+                    <ion-icon style="font-size: 2rem;cursor: pointer;" name="logo-linkedin"></ion-icon>
+                </a><a href="https://twitter.com/Abhishe81694312" target="_blank">
+                    <ion-icon style="font-size: 2rem;cursor: pointer;" name="logo-twitter"></ion-icon>
+                </a><a href="https://github.com/Abhishek0943" target="_blank">
+                    <ion-icon style="font-size: 2rem;cursor: pointer;" name="logo-github"></ion-icon>
+                </a>
+            </div> -->
             <div
                 style="display: flex;align-items: center;gap: 20px; position: relative; z-index: 10;margin: 30px 0px 100px 0px ;">
-                <button class="btn btn-outline" >See My Work</button>
-                <button class="btn btn-fill" ><a href="#contact">Contact
-                        us</a></button>
+                <button class="loginBtn" style="color: var(--pink);cursor: pointer;">See My Work</button>
+                <button class="loginBtn" style="cursor: pointer;"><a href="#contact" style="color: var(--pink);">Contact us</a></button>
             </div>
         </div>
-        <script src="./js/particles.js"></script>
-        <script src="./js/app.js"></script>
     </section>
+    <div id="about " style="border-top: 1px solid gray !important">
+        <div style="background-color: #080d19; ">
+            <div class="container">
+                <h3 class="">Hi, I’m Abhishek. Nice to meet you.</h3>
+                <p class="text" style="text-align: left;margin-top: 20px;">Hi, I’m Abhishek, a Full-Stack Developer with
+                    expertise in MERN stack and DevOps. I specialize in building scalable web/app solutions that drive
+                    business growth. With a focus on clean code and seamless user experiences, I’ve helped 50+ clients
+                    launch products they’re proud of. Let’s turn your vision into reality.</p>
+                
+                <p class="text" style="text-align: left;margin-top: 20px;margin: 40px 0px 110px 0px"> Feel free to reach
+                    out to me; I'm here, ready to collaborate and bring visions to life. Let's create something amazing
+                    together!</p>
+            </div>
+        </div>
+    </div>
 
 
-    <!-- <script type="module" src="./js/main.js"></script> -->
+
+
+    <div class="container sectionTwo" id="services">
+        <div>
+            <div class="iconWarper">
+                <ion-icon name="layers"></ion-icon>
+            </div>
+            <h5 style="font-size: 1.3rem;">Frontend</h5>
+            <p class="text" style="color: #080d19;text-align: center; margin-top: 10px;font-size: 1rem;">Pixel-perfect, responsive designs that boost engagement and conversions.</p>
+            <div style="display: flex;flex-direction: column;gap: 10px;margin-top: 30px;">
+                <h6 class="skillHeadding">Design Tools</h6>
+                <p class="skillList">HTML, CSS, JS</p>
+                <p class="skillList">Bootstrap</p>
+                <p class="skillList">Tailwind CSS</p>
+                <p class="skillList">React Js/React Native</p>
+                <p class="skillList">Next Js</p>
+                <p class="skillList">Axios</p>
+                <p class="skillList">Framer Motion</p>
+                <p class="skillList">Redux</p>
+                <p class="skillList">Vercel</p>
+                <p class="skillList">Git/Github</p>
+            </div>
+        </div>
+        <div>
+            <div class="iconWarper">
+                <ion-icon name="code-slash"></ion-icon>
+            </div>
+            <h5 style="font-size: 1.3rem;">Backend</h5>
+            <p class="text" style="color: #080d19;text-align: center; margin-top: 10px;font-size: 1rem;">Secure, high-performance APIs and databases to handle heavy traffic.</p>
+            <div style="display: flex;flex-direction: column;gap: 10px;margin-top: 30px;">
+                <h3 class="skillHeadding">Dev Tools</h3>
+                <p class="skillList">Node js</p>
+                <p class="skillList">Express js</p>
+                <p class="skillList">MongoDB</p>
+                <p class="skillList">Django</p>
+                <p class="skillList">Passport</p>
+                <p class="skillList">Bcrypt</p>
+                <p class="skillList">Restify</p>
+                <p class="skillList">Nest.js</p>
+                <p class="skillList">Api</p>
+                <p class="skillList">Terminal</p>
+            </div>
+        </div>
+        <div>
+            <div class="iconWarper">
+                <ion-icon name="terminal"></ion-icon>
+            </div>
+            <h5 style="font-size: 1.3rem;">Deployment</h5>
+            <p class="text" style="color: #080d19;text-align: center; margin-top: 10px;font-size: 1rem;">Zero-downtime deployments with AWS/Docker for hassle-free scaling.
+            </p>
+            <div style="display: flex;flex-direction: column;gap: 10px;margin-top: 30px;">
+                <h3 class="skillHeadding">Live Tools</h3>
+                <p class="skillList">Linux/Ubuntu</p>
+                <p class="skillList">Nginx</p>
+                <p class="skillList">Pm2</p>
+                <p class="skillList">Docker</p>
+                <p class="skillList">Kubernetes</p>
+                <p class="skillList">AWS Elastic Beanstalk</p>
+                <p class="skillList">AWS S3</p>
+                <p class="skillList">DigitalOcean App Platform</p>
+                <p class="skillList">Redis</p>
+                <p class="skillList">CI/CD Pipeline</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- {{!-- <div class="warper" style="background-color: #080d19;" id="project">
+        <div>
+            <div class="topSing"><ion-icon name="flash"></ion-icon><span>Recent Works Gallery</span></div>
+            <h2>I Complete 4 Projects Take A <br> Look Our Work</h2>
+            <div class="projectContainer">
+                <div class="card">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1dd122190920877.65c2a4a7cd308.jpeg"
+                        alt="">
+                    <div class="cardInfo">
+                        <h3>Android App</h3>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/47e891197453457.6630ced16108c.png"
+                        alt="">
+                    <div class="cardInfo">
+                        <h3>Business website</h3>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/dabfd8139668309.623368f07784b.jpg"
+                        alt="">
+                    <div class="cardInfo">
+                        <h3>Client Portfolio</h3>
+                    </div>
+                </div>
+
+
+            </div>
+            {{!-- <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div style="border: 1px solid var(--pink);height: 85%;">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"><ion-icon style="font-size: 2rem;color: var(--pink);"
+                        name="chevron-back-outline"></ion-icon></div>
+                <div class="swiper-button-next"><ion-icon style="font-size: 2rem;color: var(--pink);"
+                        name="chevron-forward-outline"></ion-icon></div>
+            </div> --}}
+        </div>
+    </div>
+   --}} -->
+    <!-- {{!-- <div class="warper" style="border-top: none; padding: 50px 0px ;">
+        <div class="FAQContainer" style="flex-direction: column !important; align-items: flex-start;">
+            <div class="FAQLeft" style="flex: 1;">
+                <div class="topSing"><ion-icon name="flash" style="color: #080d19;"></ion-icon><span
+                        style="color: #080d19;">Our Services</span>
+                </div>
+                <h2 style="color: #080d19;text-align: left;">
+                    What I Can Do</h2>
+
+            </div>
+            <div style="display: flex; gap: 30px; flex-wrap: wrap;margin-top: 20px;">
+                <div style="display: flex; flex-direction: column; gap: 10px; align-items: start; flex: 1; ">
+                    <div style="height: 100px; aspect-ratio: 1;">
+                        <img src="./images/service/web.png" style="height: 100%; width: 100%; object-fit: contain;"
+                            alt="">
+                    </div>
+                    <h4
+                        style="font-size: 1.4rem;font-weight: 600; color: #080d19; text-wrap: nowrap; text-align: left;">
+                        Web Development</h4>
+                    <p style="color: #080d19; text-align: left;">Our Front End Development services focus on creating
+                        visually appealing, responsive, and user-friendly interfaces. We specialize in delivering
+                        seamless user experiences across all devices, ensuring that your website or application looks
+                        stunning and functions flawlessly.</p>
+
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 10px; align-items: start; flex: 1; ">
+                    <div style="height: 100px; aspect-ratio: 1;">
+                        <img src="./images/service/backend.png" style="height: 100%; width: 100%; object-fit: contain;"
+                            alt="">
+                    </div>
+                    <h4
+                        style="font-size: 1.4rem;font-weight: 600; color: #080d19; text-wrap: nowrap; text-align: left;">
+                        Backend Development</h4>
+                    <p style="color: #080d19; text-align: left;">Our Backend Development services provide the robust and
+                        scalable infrastructure needed to power your digital products. We focus on building secure,
+                        efficient, and high-performance backends that manage data, processes, and integrations
+                        effortlessly</p>
+
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 10px; align-items: start; flex: 1; ">
+                    <div style="height: 100px; aspect-ratio: 1;">
+                        <img src="./images/service/devops.png" style="height: 100%; width: 100%; object-fit: contain;"
+                            alt="">
+                    </div>
+                    <h4
+                        style="font-size: 1.4rem;font-weight: 600; color: #080d19; text-wrap: nowrap; text-align: left;">
+                        Devops</h4>
+                    <p style="color: #080d19; text-align: left;">Our DevOps services bridge the gap between development
+                        and operations, enabling faster and more reliable software delivery. We implement automation,
+                        continuous integration, and continuous delivery practices to streamline workflows, enhance
+                        collaboration, and improve overall efficiency</p>
+
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 10px; align-items: start; flex: 1; ">
+                    <div style="height: 100px; aspect-ratio: 1;">
+                        <img src="./images/service/app.png" style="height: 100%; width: 100%; object-fit: contain;"
+                            alt="">
+                    </div>
+                    <h4
+                        style="font-size: 1.4rem;font-weight: 600; color: #080d19; text-wrap: nowrap; text-align: left;">
+                        App Development</h4>
+                    <p style="color: #080d19; text-align: left;">Our Android Development services bring your ideas to
+                        life with custom,
+                        high-quality mobile applications. We focus on creating feature-rich, user-centric apps that
+                        offer excellent performance and compatibility across a wide range of Android devices.</p>
+
+                </div>
+            </div>
+        </div>
+    </div>  --}} -->
+    <div class="warper" style="background-color: #080d19;">
+        <div class="topSing" style="flex-direction: row;justify-content: center; padding: 0px; margin-top: 30px;">
+            <ion-icon name="flash" style="color: white;"></ion-icon><span style="color:white;">Why You Choose us</span>
+        </div>
+        <h2 style="color: white;text-align: center;">
+            Build a Website That <br>Your Customers Love</h2>
+        <div class="why-choose-us">
+            <div>
+                <div><img src="./images/iconSy.png" alt=""></div>
+                <h4>Professional & Experience</h4>
+                <p> Our skilled professionals bring years of experience and expertise to every project.
+                </p>
+            </div>
+            <div>
+                <div><img src="./images/iconAn.png" alt=""></div>
+                <h4>Modern Ideas</h4>
+                <p> We stay ahead with innovative concepts that align with today’s evolving technological landscape.</p>
+            </div>
+            <div>
+                <div><img src="./images/iconAi.png" alt=""></div>
+                <h4>Creative & Intelligent</h4>
+                <p>We implement data-driven strategies that enhance efficiency and maximize your ROI.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="warper">
+        <div class="FAQContainer" style="padding: 100px 0px;">
+            <div class="FAQLeft" style="flex: 1;">
+                <div class="topSing"><ion-icon name="flash" style="color: #080d19;"></ion-icon><span
+                        style="color: #080d19;">Asked
+                        Question</span>
+                </div>
+                <h2 style="color: #080d19;text-align: left;">
+                    Frequently Asked Questions</h2>
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-button" id="accordion-button-1" aria-expanded="false">
+                            <span class="accordion-title">What services do you offer as a MERN stack developer?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>As a MERN stack developer, I offer end-to-end web development services, including
+                                frontend and backend development, server-side scripting, API development, deployment,
+                                and maintenance.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button" id="accordion-button-2" aria-expanded="false">
+                            <span class="accordion-title">What is included in your frontend development services?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>My frontend development services encompass creating interactive and visually appealing
+                                user interfaces using technologies like HTML, CSS, JavaScript, and React.js.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button" id="accordion-button-3" aria-expanded="false">
+                            <span class="accordion-title">Can you describe your backend development expertise in the
+                                MERN stack?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>I specialize in backend development using Node.js and Express.js, along with MongoDB for
+                                database management. I create robust APIs and handle server-side logic to ensure
+                                seamless communication between the frontend and backend.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button" id="accordion-button-4" aria-expanded="false">
+                            <span class="accordion-title">How do you handle server-side scripting and API
+                                development?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>I utilize Node.js and Express.js to handle server-side scripting and develop RESTful APIs
+                                that enable communication between the frontend and backend components of the
+                                application.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button" id="accordion-button-5" aria-expanded="false">
+                            <span class="accordion-title">What steps do you take to ensure smooth deployment of MERN
+                                stack applications?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>I follow best practices for deployment, including setting up hosting environments,
+                                configuring servers, optimizing code for production, and conducting thorough testing
+                                before deployment.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <button class="accordion-button" id="accordion-button-6" aria-expanded="false">
+                            <span class="accordion-title">Do you provide website design services in addition to
+                                development?</span>
+                            <span class="icon" aria-hidden="true"></span>
+                        </button>
+                        <div class="accordion-content">
+                            <p>Yes, I offer website design services to create visually appealing and user-friendly
+                                interfaces that align with your brand's aesthetic and meet your specific requirements.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="FAQRight">
+                <div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./images/model.png" style="height: 100%;" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="warper" id="contact">
+        <div>
+            <div class="topSing"><ion-icon name="flash" style="color: #080d19;"></ion-icon><span
+                    style="font-size: .7rem;font-weight: 800;margin-top: 3px;color: #080d19;">Contact us</span>
+            </div>
+            <h2 style="font-weight: 900;font-size: 2rem;margin: 20px 0px ;color: #080d19;margin-bottom: 40px;">Contact
+                Me
+                For More Deatails</h2>
+            <div style="max-width: 1200px;margin:auto;width: 92%;display: flex;gap: 6%;justify-content: center;">
+                <div class="formLeftSide" style="flex: 1;">
+                    <h2 style="color: #080d19;text-align: start;font-size: 3rem;font-weight: 700;max-width: 500px;">
+                        Let's Chat. <br> Tell me About Your Project.</h2>
+                    <p style="color: #080d19;text-align: left;">Let's create something Together🤘</p>
+                </div>
+                <form method="post" action="/"
+                    style=" flex: 1;border-radius: 20px;max-width: 450px;padding: 5% 4%; background-color: white;box-shadow: 0px 0px 10px 0px #d4d4d487;">
+                    <h3 style="color: #080d19; font-size: 1.3rem;text-align: left;margin-bottom: 20px;">Send us a
+                        Message🚀</h3>
+                    <div style="display: flex;width: 100%;gap   :20px;flex-wrap: wrap;">
+
+                        <input type="text" id="name" name="name" autocomplete="name"
+                            style="border-radius: 4px ;flex:1;color  :#080d19;text-align: left;font-size: 1rem;font-weight: 500;padding: 10px 15px; border: none; background-color: #b8fffa52; border: 1px solid #080d19;"
+                            placeholder="First Name">
+
+                        <input type="text" id="email" name="email" autocomplete="email"
+                            style="border-radius: 4px ;flex:1;color  :#080d19;text-align: left;font-size: 1rem;font-weight: 500;padding: 10px 15px; border: none; background-color: #b8fffa52; border: 1px solid #080d19;"
+                            placeholder="example@gmail.com">
+                        <input type="number" id="number" name="number" autocomplete="mobile"
+                            style="border-radius: 4px ;flex:1;color  :#080d19;text-align: left;font-size: 1rem;font-weight: 500;padding: 10px 15px; border: none; background-color: #b8fffa52; border: 1px solid #080d19;"
+                            placeholder="Phone Number">
+                    </div>
+                    <label for="message"
+                        style="color: #080d19;font-size: .8rem;font-weight: 700;float: left;margin: 15px 0px 5px 0px;cursor: pointer;">Tell
+                        us About your project</label>
+                    <textarea id="message" placeholder="Message" name="message"
+                        style="background-color: #b8fffa52;border-radius: 4px ;border:1px solid #080d19;flex:1;outline   :none;color  :#080d19;text-align: left;font-size: 1rem;font-weight: 500;padding: 6px 15px;width: 100%;"
+                        cols=" 30"></textarea>
+                    <button
+                        style="border-radius: 4px ;flex:1;outline   :none;color  :white;font-size: 1rem;font-weight: 600;padding: 10px 25px; margin-top: 20px;background-color: #080d19;cursor: pointer;border: none;float: left;">Submit</button>
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- {{!-- <div class="projects">
+        <div style="display: flex;max-width: 1200px;margin: auto;width: 100%;gap: 2%;align-items: flex-start;">
+            <div class="left" style="position: sticky;top: 50px;height: 100vh; min-width: 350px;width: 30px;">
+                <h2 class="timeLineTitle" style="text-align: left;">Projects</h2>
+                <p style="font-size:22px; font-family: inter;text-align:left ;padding-left: 20px;">Here you will find
+                    some of the personal and clients projects that I created with each project
+                    containing
+                    its
+                    own case study</p>
+                <div style="padding-left: 20px;display: flex;flex-direction: column;gap: 10px;margin-top: 30px;">
+                    <a href="#portfolio" class="one">
+                        <div style="display: flex;align-items: center;gap: 10px;">
+
+                            <div>
+                                <hr style="width: 70px;border:1px solid white;">
+                            </div>
+                            <span style="color: white;font-size: 22px;font-family: inter;">Portfolio</span>
+                        </div>
+                    </a>
+                    <a href="#school-portal" class="two">
+                        <div style="display: flex;align-items: center;gap: 10px;">
+                            <div>
+                                <hr style="width: 40px;border:1px solid gray;">
+                            </div>
+                            <span style="color: gray;font-size: 22px;font-family: inter;">Schools Portal</span>
+                        </div>
+                    </a>
+                    <a href="#tacker">
+
+
+                        <div style="display: flex;align-items: center;gap: 10px;">
+                            <div>
+                                <hr style="width: 40px;border:1px solid gray;">
+                            </div>
+                            <span style="color: gray;font-size: 22px;font-family: inter;">Tacker</span>
+                        </div>
+                    </a>
+                    <a href="#counpon">
+                        <div style="display: flex;align-items: center;gap: 10px;">
+                            <div>
+                                <hr style="width: 40px;border:1px solid gray;">
+                            </div>
+                            <span style="color: gray;font-size: 22px;font-family: inter;">coupon's</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="right" style="padding-top:130px ;">
+                <p style="font-size: 22px; font-family:inter;text-align: left;color: #b7b6b6;padding-bottom:70px ;">I
+                    began learning how the web functions in January 2022 and quickly fell down the rabbit hole of coding
+                    and site creation. I currently work as a full stack developer and am content to create software for
+                    a <span class="activeText">large corporate</span>, a <span class="activeText">start-up</span>, a
+                    <span class="activeText">Freelance projects</span>, and an <span class="activeText">advertising
+                        agency</span>.
+                </p>
+                <div id="portfolio" class="projectList" style="display: flex;gap: 20px;">
+                    <div
+                        style="min-width: 150px;max-width: 150px;margin-top: 5px; width: 100%; aspect-ratio: 16 / 9;height: auto;">
+                        <img src="images/project2.png"
+                            style="width: 100%; object-fit: contain;box-shadow: 0px 0px 10px #576da08f">
+                    </div>
+                    <div>
+                        <h4 style="font-family: inter;font-size:18px ;text-align: left;font-weight: 900;">
+                            School/Collages/University Portal </h4>
+                        <p
+                            style="font-family: inter;font-size:17px ;color: #b7b6b6;padding-top:15px ; text-align: left;word-break: break-word;">
+                            Users of this website can locate the <span class="activeText" style="font-size: 17px;">best
+                                collages</span> from
+                            around the globe, <span class="activeText" style="font-size: 17px;">compare the best
+                                collages</span>, and obtain the best <span class="activeText"
+                                style="font-size: 17px;">advice for themselves</span>. The user may also compare <span
+                                class="activeText" style="font-size: 17px;">course fees</span> and get information on
+                            any type of <span class="activeText" style="font-size: 17px;">test</span>, including <span
+                                class="activeText" style="font-size: 17px;">JEET</span> , <span class="activeText"
+                                style="font-size: 17px;">NEET</span>, and <span class="activeText"
+                                style="font-size: 17px;">Cat</span>.
+                        </p>
+                        <p
+                            style="font-family: inter;font-size:17px ;color: #b7b6b6;padding-top:15px ; text-align: left;word-break: break-word;">
+                            Included in this project are the <span class="activeText"
+                                style="font-size: 17px;">frontend</span>, <span class="activeText"
+                                style="font-size: 17px;">backend</span>, and <span class="activeText"
+                                style="font-size: 17px;">admin panel</span> from the admin panel
+                            Administrators control every aspect of the website, including <span class="activeText"
+                                style="font-size: 17px;">adding</span>, <span class="activeText"
+                                style="font-size: 17px;">deleting</span>, and <span class="activeText"
+                                style="font-size: 17px;">editing
+                                collages</span>. Additionally, administrators have the ability to <span
+                                class="activeText" style="font-size: 17px;">establish</span> and <span
+                                class="activeText" style="font-size: 17px;">assign
+                                responsibilities</span> to others. and numerous other teachers, such as <span
+                                class="activeText" style="font-size: 17px;">blogging</span>, user
+                            administration, <span class="activeText" style="font-size: 17px;">role management</span>,
+                            and <span class="activeText" style="font-size: 17px;">category control</span></p>
+                        <div style="display: flex;margin:30px 10px 10px 10px;gap: 15px;flex-wrap: wrap;">
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                HTML</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                CSS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                JavaScript</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Node Js</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Express JS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                MongoDB</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                EJS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Web Socket</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="school-portal" class="projectList" style="display: flex;gap: 20px;">
+                    <div
+                        style="min-width: 150px;max-width: 150px;margin-top: 5px; width: 100%; aspect-ratio: 16 / 9;height: auto;">
+                        <img src="images/project2.png"
+                            style="width: 100%; object-fit: contain;box-shadow: 0px 0px 10px #576da08f">
+                    </div>
+                    <div>
+                        <h4 style="font-family: inter;font-size:18px ;text-align: left;font-weight: 900;">
+                            School/Collages/University Portal </h4>
+                        <p
+                            style="font-family: inter;font-size:17px ;color: #b7b6b6;padding-top:15px ; text-align: left;word-break: break-word;">
+                            Users of this website can locate the <span class="activeText" style="font-size: 17px;">best
+                                collages</span> from
+                            around the globe, <span class="activeText" style="font-size: 17px;">compare the best
+                                collages</span>, and obtain the best <span class="activeText"
+                                style="font-size: 17px;">advice for themselves</span>. The user may also compare <span
+                                class="activeText" style="font-size: 17px;">course fees</span> and get information on
+                            any type of <span class="activeText" style="font-size: 17px;">test</span>, including <span
+                                class="activeText" style="font-size: 17px;">JEET</span> , <span class="activeText"
+                                style="font-size: 17px;">NEET</span>, and <span class="activeText"
+                                style="font-size: 17px;">Cat</span>.
+                        </p>
+                        <p
+                            style="font-family: inter;font-size:17px ;color: #b7b6b6;padding-top:15px ; text-align: left;word-break: break-word;">
+                            Included in this project are the <span class="activeText"
+                                style="font-size: 17px;">frontend</span>, <span class="activeText"
+                                style="font-size: 17px;">backend</span>, and <span class="activeText"
+                                style="font-size: 17px;">admin panel</span> from the admin panel
+                            Administrators control every aspect of the website, including <span class="activeText"
+                                style="font-size: 17px;">adding</span>, <span class="activeText"
+                                style="font-size: 17px;">deleting</span>, and <span class="activeText"
+                                style="font-size: 17px;">editing
+                                collages</span>. Additionally, administrators have the ability to <span
+                                class="activeText" style="font-size: 17px;">establish</span> and <span
+                                class="activeText" style="font-size: 17px;">assign
+                                responsibilities</span> to others. and numerous other teachers, such as <span
+                                class="activeText" style="font-size: 17px;">blogging</span>, user
+                            administration, <span class="activeText" style="font-size: 17px;">role management</span>,
+                            and <span class="activeText" style="font-size: 17px;">category control</span></p>
+                        <div style="display: flex;margin:30px 10px 10px 10px;gap: 15px;flex-wrap: wrap;">
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                HTML</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                CSS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                JavaScript</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Node Js</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Express JS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                MongoDB</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                EJS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Web Socket</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="tacker" class="projectList" style="display: flex;gap: 20px;">
+                    <div
+                        style="min-width: 150px;max-width: 150px;margin-top: 5px; width: 100%; aspect-ratio: 16 / 9;height: auto;">
+                        <img src="images/project2.png"
+                            style="width: 100%; object-fit: contain;box-shadow: 0px 0px 10px #576da08f">
+                    </div>
+                    <div>
+                        <h4 style="font-family: inter;font-size:18px ;text-align: left;font-weight: 900;">
+                            School/Collages/University Portal </h4>
+                        <p
+                            style="font-family: inter;font-size:17px ;color: #b7b6b6;padding-top:15px ; text-align: left;word-break: break-word;">
+                            Users of this website can locate the <span class="activeText" style="font-size: 17px;">best
+                                collages</span> from
+                            around the globe, <span class="activeText" style="font-size: 17px;">compare the best
+                                collages</span>, and obtain the best <span class="activeText"
+                                style="font-size: 17px;">advice for themselves</span>. The user may also compare <span
+                                class="activeText" style="font-size: 17px;">course fees</span> and get information on
+                            any type of <span class="activeText" style="font-size: 17px;">test</span>, including <span
+                                class="activeText" style="font-size: 17px;">JEET</span> , <span class="activeText"
+                                style="font-size: 17px;">NEET</span>, and <span class="activeText"
+                                style="font-size: 17px;">Cat</span>.
+                        </p>
+                        <p
+                            style="font-family: inter;font-size:17px ;color: #b7b6b6;padding-top:15px ; text-align: left;word-break: break-word;">
+                            Included in this project are the <span class="activeText"
+                                style="font-size: 17px;">frontend</span>, <span class="activeText"
+                                style="font-size: 17px;">backend</span>, and <span class="activeText"
+                                style="font-size: 17px;">admin panel</span> from the admin panel
+                            Administrators control every aspect of the website, including <span class="activeText"
+                                style="font-size: 17px;">adding</span>, <span class="activeText"
+                                style="font-size: 17px;">deleting</span>, and <span class="activeText"
+                                style="font-size: 17px;">editing
+                                collages</span>. Additionally, administrators have the ability to <span
+                                class="activeText" style="font-size: 17px;">establish</span> and <span
+                                class="activeText" style="font-size: 17px;">assign
+                                responsibilities</span> to others. and numerous other teachers, such as <span
+                                class="activeText" style="font-size: 17px;">blogging</span>, user
+                            administration, <span class="activeText" style="font-size: 17px;">role management</span>,
+                            and <span class="activeText" style="font-size: 17px;">category control</span></p>
+                        <div style="display: flex;margin:30px 10px 10px 10px;gap: 15px;flex-wrap: wrap;">
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                HTML</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                CSS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                JavaScript</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Node Js</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Express JS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                MongoDB</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                EJS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Web Socket</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="counpon" class="projectList" style="display: flex;gap: 20px;">
+                    <div
+                        style="min-width: 150px;max-width: 150px;margin-top: 5px; width: 100%; aspect-ratio: 16 / 9;height: auto;">
+                        <img src="images/project2.png"
+                            style="width: 100%; object-fit: contain;box-shadow: 0px 0px 10px #576da08f">
+                    </div>
+                    <div>
+                        <h4 style="font-family: inter;font-size:18px ;text-align: left;font-weight: 900;">
+                            School/Collages/University Portal </h4>
+                        <p
+                            style="font-family: inter;font-size:17px ;color: #b7b6b6;padding-top:15px ; text-align: left;word-break: break-word;">
+                            Users of this website can locate the <span class="activeText" style="font-size: 17px;">best
+                                collages</span> from
+                            around the globe, <span class="activeText" style="font-size: 17px;">compare the best
+                                collages</span>, and obtain the best <span class="activeText"
+                                style="font-size: 17px;">advice for themselves</span>. The user may also compare <span
+                                class="activeText" style="font-size: 17px;">course fees</span> and get information on
+                            any type of <span class="activeText" style="font-size: 17px;">test</span>, including <span
+                                class="activeText" style="font-size: 17px;">JEET</span> , <span class="activeText"
+                                style="font-size: 17px;">NEET</span>, and <span class="activeText"
+                                style="font-size: 17px;">Cat</span>.
+                        </p>
+                        <p
+                            style="font-family: inter;font-size:17px ;color: #b7b6b6;padding-top:15px ; text-align: left;word-break: break-word;">
+                            Included in this project are the <span class="activeText"
+                                style="font-size: 17px;">frontend</span>, <span class="activeText"
+                                style="font-size: 17px;">backend</span>, and <span class="activeText"
+                                style="font-size: 17px;">admin panel</span> from the admin panel
+                            Administrators control every aspect of the website, including <span class="activeText"
+                                style="font-size: 17px;">adding</span>, <span class="activeText"
+                                style="font-size: 17px;">deleting</span>, and <span class="activeText"
+                                style="font-size: 17px;">editing
+                                collages</span>. Additionally, administrators have the ability to <span
+                                class="activeText" style="font-size: 17px;">establish</span> and <span
+                                class="activeText" style="font-size: 17px;">assign
+                                responsibilities</span> to others. and numerous other teachers, such as <span
+                                class="activeText" style="font-size: 17px;">blogging</span>, user
+                            administration, <span class="activeText" style="font-size: 17px;">role management</span>,
+                            and <span class="activeText" style="font-size: 17px;">category control</span></p>
+                        <div style="display: flex;margin:30px 10px 10px 10px;gap: 15px;flex-wrap: wrap;">
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                HTML</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                CSS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                JavaScript</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Node Js</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Express JS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                MongoDB</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                EJS</p>
+                            <p
+                                style="background-color: #c2ff9b33;color: #a7d389;font-family: inter;padding: 10px 20px;border-radius:20px ;font-weight: 800;font-size: 17px;cursor: pointer;position: relative;z-index: 10;">
+                                Web Socket</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --}} -->
+    <div style="max-width: 100vw;width: 100%;padding: 30px 0px;background-color: #080d19;">
+        <p>© All Right Reserved 2024</p>
+    </div>
+    <script src="./js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    <script type="module" src="./js/main.js"></script>
 </body>
 
 </html>

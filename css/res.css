@@ -1,0 +1,157 @@
+@media screen and (max-width : 1400px) {
+    .section {
+        min-height: 100vh;
+        height: auto;
+    }
+}
+
+@media screen and (max-width : 1200px) {}
+
+@media screen and (max-width : 1150px) {
+    .card {
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width : 1000px) {
+    .timeLineBox {
+        gap: 50px;
+    }
+
+    .container>.text {
+        text-align: center !important;
+    }
+
+    .sectionTwo {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 100%;
+        align-self: center;
+        padding: 20px 30px !important;
+    }
+
+    .cardCon {
+        gap: 5%;
+    }
+
+    .FAQContainer {
+        padding: 50px 0px !important;
+    }
+
+    .FAQRight {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    #menuList {
+        display: none !important;
+    }
+
+    #toggelBar {
+        display: block !important;
+    }
+
+    .services {
+        gap: 30px;
+        row-gap: 50px;
+        padding: 0px 30px 40px 30px;
+    }
+
+    .formLeftSide {
+        display: none;
+    }
+
+    .serviceCard {
+        flex: 1;
+    }
+
+    .cardCon {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .timeLineTitle {
+        padding-top: 60px;
+    }
+
+    .servicePageTop {
+        padding: 60px 20px 40px 20px;
+    }
+
+
+}
+
+@media screen and (max-width : 750px) {
+    .servicePageTop {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width : 700px) {
+    .why-choose-us {
+        display: block !important;
+    }
+
+    .why-choose-us>div {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .navBar img{
+        height: 50px !important;
+    }
+}
+@media screen and (max-width : 450px) {
+
+    .hero_heading {
+        font-size: 2.5rem !important;
+    }
+
+    .hero_sub_heading {
+        font-size: 1.2rem !important;
+    }
+
+    .hero_para {
+        font-size: 1rem !important;
+    }
+
+
+}
+
+@media screen and (max-width : 1300px) {
+    .projects {
+        padding: 20px 20px 80px 20px;
+    }
+
+    .projectImage {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .project {
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+    .projectImage {
+        width: 100%;
+    }
+
+    .projectDetailsBox {
+        align-items: center;
+        margin: 0px;
+        padding: 20px 30px;
+    }
+
+    .projectDiscription {
+        text-align: center;
+    }
+}
